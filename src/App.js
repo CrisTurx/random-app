@@ -9,6 +9,7 @@ componentDidMount() {
   this.fetchAdvice();
 }
 
+
 fetchAdvice = () => {
   axios.get('https://api.adviceslip.com/advice')
   .then((response) => {
